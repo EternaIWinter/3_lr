@@ -1,0 +1,11 @@
+***Запрос для сравнения валют с 2023-01-01 по 2023-01-02:
+	
+http://localhost:5000/cnb_api/report?day_start=2023-01-01&day_finish=2023-01-02
+
+***Запрос для одного дня:
+
+http://localhost:5000/cnb_api/day?day=2023-02-01
+
+***Запрос на восстановление таблицы:
+
+http://localhost:5000/cnb_api/db
